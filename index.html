@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check weather</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" class="search-bar" placeholder="Search">
+      <button><i class="fa fa-search"></i></button>
+    </div>
+    <div class="weather loading">
+      <h2 class="city"></h2>
+      <div class="flex">
+        <h1 class="temp"></h1>
+        <img alt="" class="icon"/>
+      </div>
+      <div class="feels"></div>
+      <div class="description"></div>    
+      <div class="humidity"></div>
+      <div class="wind"></div>
+    </div>
+  </div>
+</body>
+
+</html>
