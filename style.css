@@ -16,7 +16,7 @@ body {
     padding: 2em;
     border-radius: 25px;
     width: 100%;
-    max-width: 450px;
+    max-width: 500px;
     margin: 1em;
   }
   
@@ -38,7 +38,19 @@ body {
     cursor: pointer;
     transition: 0.3s ease-in-out;
   }
-  
+  /* padd vidinis is virsaus-apacios ir sonu*/
+  .day {
+    padding: 0.2em 0.2em;
+    border-radius: 12px;
+    background: #7c7c7c2b;
+    color: white;
+    width: calc((100%-100px)/4);
+    text-align: center;
+    height: 80px;
+    margin: 0.4em;
+    margin-top: 1em;
+  }
+
   input.search-bar {
     border: none;
     outline: none;
@@ -100,4 +112,9 @@ body {
     position: absolute;
     top: 0;
     left: 20px;
+  }
+
+  .day p {
+    margin: 0.3em;
+    font-size: 14px;
   }
